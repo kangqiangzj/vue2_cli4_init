@@ -44,12 +44,15 @@
     }
   },
   "lint-staged": {
-    "*.{js,vue}": [
-      "prettier --write",
-      "vue-cli-service lint",
-      "git add"
+    "{src}/**/*.{js,vue}": [
+        "eslint --fix --ext .js,.vue",
+        "git add"
+    ],
+    "store/*.{js,vue}": [
+        "eslint --fix --ext .js,.vue",
+        "git add"
     ]
-  },
+},
   "_id": "vue2_cli4_init@0.1.0",
   "readme": "ERROR: No README data found!"
 }
