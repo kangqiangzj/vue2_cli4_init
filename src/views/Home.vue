@@ -2,7 +2,7 @@
  * @Author: zhangjie
  * @Date: 2021-12-28 17:04:16
  * @LastEditors: zhangjie
- * @LastEditTime: 2021-12-28 19:26:27
+ * @LastEditTime: 2021-12-28 19:47:33
  * @FilePath: \vue2_cli4_init\src\views\Home.vue
 -->
 
@@ -17,19 +17,6 @@
 <script>
 // @ is an alias to /src
 import HelloWorld from '@/components/HelloWorld.vue'
-const b = () => {
-  console.log('111')
-}
-
-/**
- * @description:
- * @param {*} a
- * @return {*}
- * @author: zhangjie
- */
-function test (a) {
-  console.log(a)
-}
 
 export default {
   name: 'Home',

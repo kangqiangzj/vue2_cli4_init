@@ -30,7 +30,7 @@
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.0",
     "eslint-plugin-vue": "^6.2.2",
-    "husky": "^7.0.4",
+    "husky": "4.3.8",
     "lint-staged": "^12.1.4",
     "prettier": "^2.5.1",
     "prettier-eslint-cli": "^5.0.1",
@@ -45,14 +45,14 @@
   },
   "lint-staged": {
     "{src}/**/*.{js,vue}": [
-        "eslint --fix --ext .js,.vue",
-        "git add"
+      "eslint --fix --ext .js,.vue",
+      "git add"
     ],
     "store/*.{js,vue}": [
-        "eslint --fix --ext .js,.vue",
-        "git add"
+      "eslint --fix --ext .js,.vue",
+      "git add"
     ]
-},
+  },
   "_id": "vue2_cli4_init@0.1.0",
   "readme": "ERROR: No README data found!"
 }
