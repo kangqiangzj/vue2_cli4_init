@@ -2,7 +2,7 @@
  * @Author: zhangjie
  * @Date: 2021-12-28 17:04:16
  * @LastEditors: zhangjie
- * @LastEditTime: 2021-12-28 19:24:36
+ * @LastEditTime: 2021-12-28 19:26:27
  * @FilePath: \vue2_cli4_init\src\views\Home.vue
 -->
 
@@ -38,6 +38,7 @@ export default {
   },
   methods: {
     a () {
+      console.log('111')
       console.log(11)
     }
   }
